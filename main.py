@@ -1,10 +1,12 @@
-from google.colab import files
+# if you work this code colab means use below code
 
-# Upload the image file
-uploaded = files.upload()
+# from google.colab import files
 
-# Get the file path
-image_path = list(uploaded.keys())[0]
+# # Upload the image file
+# uploaded = files.upload()
+
+# # Get the file path
+# image_path = list(uploaded.keys())[0]
 
 # code to extract edges using CV library
 import cv2
